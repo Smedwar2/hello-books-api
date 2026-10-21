@@ -1,7 +1,7 @@
 from flask import Flask, config
 from .db import db, migrate
 from .models import book # Newly added import
-from .routes.book_routes import books_bp
+from .routes.book_routes import bp as books_bp
 import os
 # from .routes.hello_world_routes import hello_world_bp
 
